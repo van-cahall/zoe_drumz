@@ -8,7 +8,7 @@
  */
 
 //Piezo defines
-#define NUM_PIEZOS 5
+#define NUM_PIEZOS 2
 #define SNARE_THRESHOLD 30     //anything < TRIGGER_THRESHOLD is treated as 0
 #define LTOM_THRESHOLD 30
 #define RTOM_THRESHOLD 30
@@ -18,12 +18,13 @@
 #define START_SLOT 0     //first analog slot of piezos
 
 //MIDI note defines for each trigger
+#define KICK_NOTE 42
 #define SNARE_NOTE 62
 #define LTOM_NOTE 73
-#define RTOM_NOTE 74
+#define RTOM_NOTE 55
 #define LCYM_NOTE 75
 #define RCYM_NOTE 76
-#define KICK_NOTE 47
+
 
 //MIDI defines
 #define NOTE_ON_CMD 0x90
